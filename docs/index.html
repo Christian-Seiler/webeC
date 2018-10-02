@@ -8,23 +8,38 @@
 <body>
     <h1>Hello</h1>
 
-    <form action="index.html">
-	    <table>
-		    <tr>
-			    <td>Name</td><td> <input type="text" name="name" id="name"></td>
-		    </tr>
-		    <tr>
-        <td>eMail</td><td><input type="email" name="mail" id="mail"></td>
-        </tr>
-	    <tr>
-        <td>Message</td><td><input type="text" name="message" id="message"></td>
-	    </tr>
-        <tr>
-        <td>Recipient</td><td><input type="text" disabled value="christian.ribeaud@fhnw.ch"></td>
-        </tr>
-        <tr>
-<td></td><td>        <input type="submit" value="Send"></td>
-	    </table>
+    <form action="mailto:christian.ribeaud@fhnw.ch?subject=">
+        <table>
+            <tr>
+                <td>Name</td>
+
+                <td><input type="text" name="name" id="name"></td>
+            </tr>
+
+            <tr>
+                <td>eMail</td>
+
+                <td><input type="email" name="mail" id="mail"></td>
+            </tr>
+
+            <tr>
+                <td>Message</td>
+
+                <td><textarea name="message" id="message"></td>
+            </tr>
+
+            <tr>
+                <td>Recipient</td>
+
+                <td><input type="text" disabled value="christian.ribeaud@fhnw.ch"></td>
+            </tr>
+
+            <tr>
+                <td></td>
+
+                <td><input type="submit" value="Send"></td>
+            </tr>
+        </table>
     </form>
 </body>
 </html>
